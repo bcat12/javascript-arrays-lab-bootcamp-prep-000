@@ -22,6 +22,7 @@ function appendKitten(name){
 }
 
 function prependJitten(name){
+  var kittens2 = 
  return [name,...kittens]
 }
 
