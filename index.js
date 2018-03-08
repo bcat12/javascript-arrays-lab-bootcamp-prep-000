@@ -27,10 +27,11 @@ function prependJitten(name){
 }
 
 function removeLastKitten(){
-  var kittens2= 
-  return kittens.pop()
+  var kittens2= kittens.pop()
+  return kittens2
 }
 
 function removeFirstKitten(){
+   
    return kittens.shift()
 }
