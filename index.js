@@ -5,3 +5,6 @@ function destructivelyAppendKitten(name){
  kittens= [...kittens, name]
 }
 
+function destructivelyPrependKitten(name){
+  kittens= [name,...kittens]
+}
