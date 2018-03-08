@@ -8,3 +8,6 @@ function destructivelyAppendKitten(name){
 function destructivelyPrependKitten(name){
   kittens= [name,...kittens]
 }
+
+function destructivelyRemoveLastKitten()
+ kittens = 
