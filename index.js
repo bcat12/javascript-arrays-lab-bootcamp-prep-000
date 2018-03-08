@@ -26,5 +26,9 @@ return [name,...kittens]
 }
 
 function removeLastKitten(){
-  
+  return kittens.pop()
+}
+
+function removeFirstKitten(){
+   return kittens.shift()
 }
